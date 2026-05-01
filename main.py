@@ -22,8 +22,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://workhub.vercel.app",
-        "https://*.vercel.app"
+        "https://workhub-xi.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
