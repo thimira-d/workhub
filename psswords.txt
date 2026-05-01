@@ -1,0 +1,33 @@
+
+WorkhubCluster on Mongodb
+
+Username = thimira
+
+Password = fGgBq2Lo0xirEtzH
+
+--------------------------------------------
+
+Freelance account
+
+email: thimira@gmail.com
+
+password: mypassword123
+
+---------------------------------------------
+Client account (Json)
+
+{
+  "email": "john@workhub.com",
+  "password": "client123"
+}
+
+---------------------------------------------
+
+Server Start Command
+
+venv\Scripts\activate
+
+uvicorn main:app --reload --port 8080
+
+---------------------------------------------
+
