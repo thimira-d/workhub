@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import axios from 'axios'
 
-const API = 'https://workhub-api-production.up.railway.app/'
+const API = 'https://workhub-api-production.up.railway.app'
 
 function Login() {
   const [form, setForm] = useState({ email: '', password: '' })
