@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 
-const API = 'http://127.0.0.1:8080'
+const API = 'https://workhub-api-production.up.railway.app/'
 
 function Dashboard() {
   const [services, setServices] = useState([])
